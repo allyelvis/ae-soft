@@ -1,0 +1,6 @@
+run = "cowsay Configure me!"
+entrypoint = "README.md"
+modules = ["python-3.11", "gcloud"]
+
+[nix]
+channel = "stable-24_05"

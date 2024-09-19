@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ae"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+plot2vid = "1.0.3"
+bin2vid = "0.0.1"
+vid-cleaner = "0.3.3"
+vid2led = "0.1.3"
+vid2mp3 = "0.1.3"
+2mp4 = "1.0.1"
+link2mp4 = "1.0.1"
+ga4mp = "2.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
